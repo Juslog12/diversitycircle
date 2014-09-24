@@ -28,85 +28,114 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="{{ action('HomeController@showIndex')}}">
+            <a class="brand" href="index.html">
                 <strong>DIVERSITY©IRCLE</strong>
             </a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><a href="{{ action('HomeController@showTour')}}">TOUR</a></li>
-                    <li><a href="{{ action('HomeController@showTour')}}">PROFESSIONAL</a></li>
-                    <li><a href="{{ action('HomeController@showTour')}}">EMPLOYER</a></li>
-                     <li><a href="{{ action('HomeController@showIndex')}}">JOBS</a></li>
-                    <!--<li><a href="contact.html">CONTACT US</a></li> -->
-                    <li><a href="{{ action('HomeController@showBlog')}}">BLOG</a></li>
-                    <li><a class="btn-header" href="{{ action('HomeController@showSignup')}}">Sign up</a></li>
-                    <li><a class="btn-header" href="{{ action('HomeController@showSignin')}}">Sign in</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            COMMUNITY
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a href="sign-in.html">Sign in</a></li>
+                            <li><a href="sign-up.html">Sign up</a></li>
+                            <li><a href="backgrounds.html">Backgrounds</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li> -->
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a class="btn-header active" href="sign-up.html">Sign up</a></li>
+                    <li><a class="btn-header" href="sign-in.html">Sign in</a></li>
                 </ul>
             </div>
         </div>
       </div>
     </div>
-
-    <!-- Sign In Option 1 -->
-    <div id="sign_up1">
+    <!-- Sign In Option 2 -->
+    <div id="sign_up2">
         <div class="container">
-            <div class="row">
-                <div class="span12 header">
-                    <h4>Create your account</h4>
-                    <p>
-                        Build your profile quickly with with Linkedin.</p>
+            <div class="section_header">
+                <h3>Talent Solutions <span></span></h3>
+            </div>
+            <div class="row login">
+                <div class="span5 left_box">
+                    <h4>Create your account for free</h4>
 
-                    <div class="span4 social">
-                        <!-- <a href="#" class="circle facebook">
-                            <img src="img/face.png" alt="">
-                        </a>
-                         <a href="#" class="circle twitter">
-                            <img src="img/twt.png" alt="">
-                        </a> --> Sign up with
-                         <a href="#" class="circle facebook">
-                            <img style="margin-top: -.4px" src="img/in2.png" alt="">
-                        </a>
+                    <div class="perk_box">
+                        <div class="perk">
+                            <span class="icos ico1"></span>
+                            <p><strong>Diversity Recruiters</strong> Join the site quickly with your Linkedin profile.</p>
+                        </div>
+                        <div class="perk">
+                            <span class="icos ico2"></span>
+                            <p><strong>Sign up with email</strong> Gain access to our site and browse the network, search for talent.</p>
+                        </div>
+                        <div class="perk">
+                            <span class="icos ico3"></span>
+                            <p><strong>Contact us</strong> reach out to our team directly to get support finding diversity talent on the site.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="span3 division">
-                    <div class="line l"></div>
-                    <span>or</span>
-                    <div class="line r"></div>
-                </div>
+                <div class="span6 signin_box">
+                    <div class="box">
+                        <div class="box_cont">
+                            <div class="social">
+                                Sign up with Linkedin.
+                               <!--  <a href="#" class="circle facebook">
+                                    <img src="img/face.png" alt="">
+                                </a>
+                                 <a href="#" class="circle twitter">
+                                    <img src="img/twt.png" alt="">
+                                </a> -->
+                                 <a href="#" class="circle twitter">
+                                    <img style="margin-top: -.4px" src="img/in2.png" alt="">
+                                </a>
+                            </div>
 
-                <div class="span12 footer">
-                    <form>
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <input type="password" placeholder="Confirm Password">
-                        <input type="submit" placeholder="Confirm Password" value="sign up">
-                    </form>
-                </div>
+                            <div class="division">
+                                <div class="line l"></div>
+                                <span>or</span>
+                                <div class="line r"></div>
+                            </div>
 
-                <!-- <div class="span5 remember">
-                    <label class="checkbox">
-                        <input type="checkbox"> Remember me
-                    </label>
-                    <a href="#">Forgot password?</a>
-                </div> -->
+                            <div class="form">
+                                <form>
+                                    <input type="text" placeholder="Email">
+                                    <input type="text" placeholder="Password">
+                                    <input type="text" placeholder="Confirm Password">
+                                    <div class="forgot">
+                                        <span>Already have an account?</span>
+                                        <a href="sign-in.html">Sign in</a>
+                                    </div>
+                                    <input type="submit" value="sign up">
+                                </form>
+                            </div>
 
-                <div class="span12 dosnt">
-                    <span>Already have an account?</span>
-                    <a href="sign-in.html">Sign in</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
 
-    
     <!-- starts footer -->
     <footer id="footer">
         <div class="container">
             <div class="row info">
                 <div class="span6 residence">
                     <ul>
-                        <li>1075 Park Place, Ste 113 San Francisco.</li>
+                        <li>1075 Park Place Suite 113, San Francisco.</li>
                         <li>United States, CA 94403.</li>
                     </ul>
                 </div>

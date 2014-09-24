@@ -85,10 +85,10 @@
             </div>
         </article>  
           
-        <article class="slide" id="ideas" style="background: url('img/backgrounds/high-rated-jobs-2.1.jpg') repeat-x top center;">
+        <article class="slide" id="ideas" style="background: url('img/backgrounds/indigo_thumb.jpg') repeat-x top center;">
             <div class="info">
                 <h2>Connect, Share, & Discover Opportunities<br>
-                    for Women and Minority Professionals.</h2>
+                    for Minority Professionals.</h2>
            </div>
             <img class="asset left-480 sp600 t260 z1" src="img/slides/scene2/left.png" />
             <img class="asset left-280 sp600 t213 z2" src="img/divcirc.png" />
@@ -104,10 +104,10 @@
         </article>
         <article class="slide" id="tour" style="background: url('img/backgrounds/color-splash.jpg') repeat-x top center;">
 
-            <img class="asset left-472 sp650 t210 z3" src="img/slides/scene3/ipad.png" />
-            <img class="asset left-365 sp600 t270 z4" src="img/slides/scene3/iphone.png" />
+            <img class="asset left-638 sp650 t80 z3" src="img/people.jpg" />
+            <!-- <img class="asset left-365 sp600 t270 z4" src="img/slides/scene3/iphone.png" />
             <img class="asset left-350 sp450 t135 z2" src="img/slides/scene3/desktop.png" />
-            <img class="asset left-185 sp550 t220 z1" src="img/slides/scene3/macbook.png" />
+            <img class="asset left-185 sp550 t220 z1" src="img/slides/scene3/macbook.png" /> -->
             <div class="info">
                 <h2>Join the Network.</h2>
                 <a href="{{ action('HomeController@showSignup')}}">Sign up Now</a>
@@ -123,40 +123,27 @@
                 <!-- Features Row -->
                 <div class="features_op1_row">
                     <!-- Feature -->
-                    <div class="span4 feature first">
-                        
-
-                        <!-- <div class="text">
-                            <h6>Student</h6>
-                            <p>
-                                There are many variations of passages of generators on the  embarrassing hidden in   content here making it look like.
-                            </p>
-                        </div> -->
+                    <div class="span4 feature first">  
                     </div>
                     <div id="in_pricing">
-                        <div class="container">
-                        <!--<div class="section_header">
-                                <h3>Pricing</h3>
-                            </div> -->
-                            <div class="row charts_wrapp">
-                                <div class="start">
-                                    <p>Build your profile with </p>
-                                    <a href="{{ action('HomeController@showSignup')}}"> LinkedIn</a>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="start">
+                             <p style="margin-left: -30px">Find my candidate </p><p style="margin-left: -4px">Build my profile </p>
+                            <p style="padding-left: 320px"><a href="{{ action('HomeController@showSignup')}}">Recruiter</a></p>
+                            <!-- <p>Build your profile with </p> -->
+                            <p style="padding-left: 30px"><a href="{{ action('HomeController@showSignup')}}">Professional</a></p>
+                        </div> 
                     </div>
                 </div>
             </div>
         </div> 
     </div>       
 
-    <div id="features">
+    <div style="margin-top:-50px" id="features">
         <div class="container">
             <div class="section_header">
                 <h3>Highly Needed Diversity Jobs</h3>
             </div> 
-            <div class="row job-content margin-bottom-40">
+            <div style="margin-top: -30px" class="row job-content margin-bottom-40">
             <div style="float: left" class="col-md-3 col-sm-3 md-margin-bottom-40">
                 <ul  class="list-unstyled categories">
                     <h3 class="heading-md"><strong>Accounting &amp; Finance</strong></h3>
@@ -279,7 +266,7 @@
     <div id="clients">
         <div class="container">
             <div class="section_header">
-                <h3>These Companies are on Diversity Circle</h3>
+                <h3>Companies on Diversity Circle</h3>
                 <h5></h5>
 
             </div>

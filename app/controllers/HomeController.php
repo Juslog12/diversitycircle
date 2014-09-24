@@ -40,6 +40,11 @@ class HomeController extends BaseController {
 		return View::make('users.signup');
 	}
 
+	public function showCorporateSignup()
+	{
+		return View::make('users.corporatesignup');
+	}
+
 	public function showSignin()
 	{
 		return View::make('users.signin');

@@ -122,7 +122,7 @@
 }
 #in_pricing .start{
 	width: 100%;
-	text-align: center;
+	/*text-align: center*/;
 }
 #in_pricing .start p{
 	font-size: 24px;

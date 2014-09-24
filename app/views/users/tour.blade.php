@@ -47,41 +47,49 @@
       </div>
     </div>
 
-    <div id="aboutus">
+    <div style="padding-bottom: 200px" id="process">
         <div class="container">
             <div class="section_header">
-                <h3>Employer</h3>
+                <h3>What we do</h3>
             </div>
-            <div class="row">
-                <div class="span6 intro">
-                    <h6>There are many reasons to consider diversity, but lets get down to the numbers..</h6>
-                    <p>
-                        Why diversity is the smart thing to do, based on the numbers that are driving companies to superior performance. When measuring diversity to business success,
-
-                        research studies indicate that diverse teams suffer from less groupthink, diverse teams are associated with higher returns on equity, lower risk, greater client focus, greater long-term orientation, greater innovation, and lower gender and race disparities.
-                
-                        <br /><br />
-
-                        Still not convinced.  See some of the <a href>companies</a> that "get it" and are focused on making progress on this front.</p>
-                      <strong>Employer
-                        <a href> Sign Up</a></strong>
+            <div class="row services_circles">
+                <div class="span4 description">
+                    <div class="text active">
+                        <h4>Find the talent.</h4>
+                        <p>
+                            Its simple. Diversity recruiters from some of the best firms in the world are here because we make it easy for them to find the top minority talent with skills they need for their organization.</p>
+                    </div>
+                    <div class="text">
+                        <h4>Share the knowledge.</h4>
+                        <p>
+                            Diversity Cirlce also provides news, monthly interviews, and blogs written and recorded by minority leaders, that you won't find anywhere else, and won't want to miss.</p>
+                    </div>
+                    <div class="text">
+                        <h4>Grow your network.</h4>
+                        <p>
+                            Studies have proven that diversity matters to the bottom line.  Because of this, <a href> companies</a> are seeking out you, today more than ever. Make it easy for them to find you. <br><a href>Join Now.</a></p>
+                    </div>
                 </div>
-                <div class="span6 flexslider">
-                      <ul class="slides">
-                        <li>
-                          <img src="img/slides/scene2/img11.jpg" />
-                        </li>
-                        <!-- <li>
-                          <img src="img/slides/scene2/img11.jpg" />
-                        </li>
-                        <li>
-                          <img src="img/slides/scene2/img11.jpg" />
-                        </li> -->
-                      </ul>
+
+                <div class="span7 areas">
+                    <div class="circle active">
+                        <img src="img/plan.png" />
+                        <span>Employers</span>
+                    </div>
+                    <div class="circle">
+                        <img src="img/develop.png" />
+                        <span>Diversity <br>Circle</span>
+                    </div>
+                    <div class="circle last_circle">
+                        <img src="img/design.png" />
+                        <span>You</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
 
     <div id="team">
         <div class="container">
@@ -118,15 +126,17 @@
                     <div class="span6 bio_box bio_boxr">
                       <!--   <img src="img/ale.png" alt=""> -->
                         <div class="info">
-                            <p class="name">There are many reasons to consider diversity, but lets get down to the numbers..
-                    
-                        Why diversity is the smart thing to do, based on the numbers that are driving companies to superior performance. When measuring diversity to business success,
-
-                        research studies indicate that diverse teams suffer from less groupthink, diverse teams are associated with higher returns on equity, lower risk, greater client focus, greater long-term orientation, greater innovation, and lower gender and race disparities.
+                            <p class="name">Corporations are looking for minorities.  So much so, most have dedicated Diversity and Inclusion
+                             Recruiters, whose sole job is to find, recruit, and grow minority people within their workplace.<br><br>  Diversity 
+                             is a concept of having a wholistic approach on encompassing the variation within an organization   .  <br><br>In the US the largest 
+                             minority segments are Women, Latino American, African American, Asian American, Veterans, Working Seniors, 
+                             Returnships (those who have been out of the corporate workforce for over 3 years), and Disabled 
+                             persons.  <br><br>America is made up of <em>YOU<em> and it makes sense that corporations want your perspective within their 
+                             companys.  After all, you are their main customer.
                 
                         <br /><br />
 
-                        Still not convinced.  See some of the companies that <a href>"get it" and are focused on making progress on this front.</a></p></p> </p>
+                        Still not convinced.  See some of the companies focused on <a href>corporate diversity.</a></p></p> </p>
                             <p class="area">
                             <a href="#" class="facebook">
                                 <span class="socialicons ico1"></span>
@@ -201,47 +211,47 @@
         </div>
     </div>
 
-    <div id="process">
+    <div id="aboutus">
         <div class="container">
             <div class="section_header">
-                <h3>Diversity©ircle</h3>
+                <h3>Employer</h3>
             </div>
-            <div class="row services_circles">
-                <div class="span4 description">
-                    <div class="text active">
-                        <h4>Find the talent.</h4>
-                        <p>
-                            Its simple. Diversity recruiters are here because it makes it easy for them to find the top minority and women talent with skills they need for their organization.</p>
-                    </div>
-                    <div class="text">
-                        <h4>Get the knowledge.</h4>
-                        <p>
-                            In addition to attracting top diversity recruiters from the best firms in the world, the cirlce also provides news, monthly interviews, and blogs specialized for minority leaders, that you won't find anywhere else, and won't want to miss.</p>
-                    </div>
-                    <div class="text">
-                        <h4>Grow your network.</h4>
-                        <p>
-                            Studies have proven that diversity matters to the bottom line.  Because of this, <a href> companies</a> are seeking out you, today more than ever. Make it easy for them to find you. <br><a href>Join Now.</a></p>
-                    </div>
-                </div>
+            <div class="row">
+                <div class="span6 intro">
+                    <h6>There are many reasons to consider diversity in company culture, but lets get down to the facts..</h6>
+                    <p>
+                        Most corporate leaders recognize today, that diversity is the smart thing to do, but may not know 
+                        that metrics that prove diversity is driving companies to superior performance. 
+                        When measuring diversity to business success,
 
-                <div class="span7 areas">
-                    <div class="circle active">
-                        <img src="img/plan.png" />
-                        <span>Employers</span>
-                    </div>
-                    <div class="circle">
-                        <img src="img/develop.png" />
-                        <span>Diversity <br>Circle</span>
-                    </div>
-                    <div class="circle last_circle">
-                        <img src="img/design.png" />
-                        <span>You</span>
-                    </div>
+                        research studies indicate that diverse teams suffer from less groupthink, diverse teams are associated with higher 
+                        returns on equity, lower risk, greater client focus, greater long-term orientation, greater innovation, and lower 
+                        gender and race disparities.
+                
+                        <br /><br />
+
+                        Still not convinced.  See what top <a href> companies </a>are focused on making progress on diversity.</p>
+                      <strong>Employer
+                        <a href="{{ action('HomeController@showCorporateSignup')}}"> Sign Up</a></strong>
+                </div>
+                <div class="span6 flexslider">
+                      <ul class="slides">
+                        <li>
+                          <img src="img/slides/scene2/img11.jpg" />
+                        </li>
+                        <!-- <li>
+                          <img src="img/slides/scene2/img11.jpg" />
+                        </li>
+                        <li>
+                          <img src="img/slides/scene2/img11.jpg" />
+                        </li> -->
+                      </ul>
                 </div>
             </div>
         </div>
     </div>
+
+    
 
     <!-- starts footer -->
     <footer id="footer">
@@ -249,14 +259,14 @@
             <div class="row info">
                 <div class="span6 residence">
                     <ul>
-                        <li>2301 East Lamar Blvd. Suite 140. City, Arlington.</li>
-                        <li>United States, Zip Code TX 76006.</li>
+                        <li>1075 Park Place, Ste 113, San Francisco.</li>
+                        <li>United States, CA 94403.</li>
                     </ul>
                 </div>
                 <div class="span5 touch">
                     <ul>
-                        <li><strong>P.</strong> 1 817 274 2933</li>
-                        <li><strong>E.</strong><a href="#"> bootstrap@twitter.com</a></li>
+                        <li><strong>P.</strong> 1 887 274 2933</li>
+                        <li><strong>E.</strong><a href="#"> diversity@circle.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -296,7 +306,7 @@
                     </div>
                     <div class="row copyright">
                         <div class="span12">
-                            © 2013 Clean Canvas. All rights reserved. Theme by Detail Canvas.
+                            © 2014 Diversity Circle. All rights reserved.
                         </div>
                     </div>
                 </div>            

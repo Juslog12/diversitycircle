@@ -20,6 +20,8 @@ Route::get('/blogpost', 'HomeController@showBlogPost');
 
 Route::get('/signup', 'HomeController@showSignup');
 
+Route::get('/corporate-signup', 'HomeController@showCorporateSignup');
+
 Route::get('/signin', 'HomeController@showSignin');
 
 Route::get('/comingsoon', 'HomeController@showComingsoon');
