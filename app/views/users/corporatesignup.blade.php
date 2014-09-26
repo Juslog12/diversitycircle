@@ -69,12 +69,12 @@
             </div>
             <div class="row login">
                 <div class="span5 left_box">
-                    <h4>Create your account for free</h4>
+                    <h4>Create your recruiter account</h4>
 
                     <div class="perk_box">
                         <div class="perk">
                             <span class="icos ico1"></span>
-                            <p><strong>Diversity Recruiters</strong> Join the site quickly with your Linkedin profile.</p>
+                            <p><strong>Diversity Recruiters</strong> Join the site quickly with a Linkedin profile.</p>
                         </div>
                         <div class="perk">
                             <span class="icos ico2"></span>

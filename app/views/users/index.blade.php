@@ -126,11 +126,11 @@
                     <div class="span4 feature first">  
                     </div>
                     <div id="in_pricing">
-                        <div class="start">
-                             <p style="margin-left: -30px">Find my candidate </p><p style="margin-left: -4px">Build my profile </p>
-                            <p style="padding-left: 320px"><a href="{{ action('HomeController@showSignup')}}">Recruiter</a></p>
+                        <div style="margin-top:-30px" class="start">
+                             <p style="margin-left: -30px; text-decoration: underline">Recruiter</a> </p><p style="padding-left: 150px; text-decoration: underline">Professional </p>
+                            <p style="padding-left: 235px"><a href="{{ action('HomeController@showCorporateSignup')}}">Find My Candidate</a></p>
                             <!-- <p>Build your profile with </p> -->
-                            <p style="padding-left: 30px"><a href="{{ action('HomeController@showSignup')}}">Professional</a></p>
+                            <p style="padding-left: 70px"><a href="{{ action('HomeController@showSignup')}}">Build my Profile</a></p>
                         </div> 
                     </div>
                 </div>
@@ -138,10 +138,10 @@
         </div> 
     </div>       
 
-    <div style="margin-top:-50px" id="features">
+    <div style="margin-top:-0px" id="features">
         <div class="container">
             <div class="section_header">
-                <h3>Highly Needed Diversity Jobs</h3>
+                <h3 style="text-align: center">Highly Needed Diversity Jobs</h3>
             </div> 
             <div style="margin-top: -30px" class="row job-content margin-bottom-40">
             <div style="float: left" class="col-md-3 col-sm-3 md-margin-bottom-40">
