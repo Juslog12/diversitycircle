@@ -30,4 +30,25 @@ class UsersController extends HomeController {
 		return View::make('users.about');
 	}
 
+  public function linkedInAuthorize()
+  {
+    return OAuth::authorize('linkedin');
+  }
+
+  public function linkedInLogin()
+  {
+      try {
+          OAuth::login('linkedin');
+      } catch (ApplicationRejectedException $e) {
+          // User rejected application
+      } catch (InvalidAuthorizationCodeException $e) {
+          // Authorization was attempted with invalid
+          // code,likely forgery attempt
+      }
+
+      // Current user is now available via Auth facade
+      $user = Auth::user();
+      return Redirect::intended();
+  }
+
 }

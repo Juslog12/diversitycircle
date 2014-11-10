@@ -63,7 +63,7 @@
                          <a href="#" class="circle twitter">
                             <img src="img/twt.png" alt="">
                         </a> --> Sign up with
-                         <a href="#" class="circle facebook">
+                         <a href="/linkedin/authorize" class="circle facebook">
                             <img style="margin-top: -.4px" src="img/in2.png" alt="">
                         </a>
                     </div>

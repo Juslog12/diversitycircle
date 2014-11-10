@@ -6,7 +6,7 @@ return array(
 		'linkedin' => array(
 			'id' => '75106t1itu2u3z',
 			'secret' => '4JD1Uuovj0fJUllQ',
-			'redirect' => URL::to('/'),
+			'redirect' => URL::to('http://diversitycircle.dev/linkedin/login'),
 			'scope' => array(),
 		),
 		//'facebook' => array(
