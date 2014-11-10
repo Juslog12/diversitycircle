@@ -93,7 +93,7 @@
 
                 <div class="span12 dosnt">
                     <span>Already have an account?</span>
-                    <a href="sign-in.html">Sign in</a>
+                    {{ link_to('/signin', 'Sign in') }}
                 </div>
             </div>
         </div>

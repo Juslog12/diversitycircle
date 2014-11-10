@@ -13,7 +13,6 @@
 
 Route::get('/', 'HomeController@showIndex');
 
-
 Route::get('/blog', 'HomeController@showBlog');
 
 Route::get('/blogpost', 'HomeController@showBlogPost');
