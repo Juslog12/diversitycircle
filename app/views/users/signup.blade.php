@@ -75,13 +75,29 @@
                     <div class="line r"></div>
                 </div>
 
+                @if(Session::has('message') || $errors->has())
+                <div class="span12 alert">
+                  @if(Session::has('message'))
+                    <strong>{{ Session::get('message') }}</span>
+                  @endif
+
+                  @if($errors->has())
+                    <ul>
+                      @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                      @endforeach
+                    </ul>
+                  @endif
+                </div>
+                @endif
+
                 <div class="span12 footer">
-                    <form>
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <input type="password" placeholder="Confirm Password">
-                        <input type="submit" placeholder="Confirm Password" value="sign up">
-                    </form>
+                  {{ Form::open(array('action' => 'UsersController@registerUser')) }}
+                    {{ Form::text('email', null, ['placeholder' => 'Email']) }}
+                    {{ Form::password('password', ['placeholder' => 'Password']) }}
+                    {{ Form::password('password_confirmation', ['placeholder' => 'Password']) }}
+                    {{ Form::submit('sign up') }}
+                  {{ Form::close() }}
                 </div>
 
                 <!-- <div class="span5 remember">

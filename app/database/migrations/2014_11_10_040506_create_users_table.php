@@ -15,7 +15,10 @@ class CreateUsersTable extends Migration {
 		Schema::create('users', function(Blueprint $table)
 		{
 			$table->increments('id');
+      $table->integer('linkedin_id')->unsigned();
       $table->string('email');
+      $table->string('name');
+      $table->string('profile_image');
       $table->string('password');
 			$table->timestamps();
 		});

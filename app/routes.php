@@ -11,20 +11,19 @@
 |
 */
 
-//Route::get('/', 'HomeController@showIndex');
-Route::get('/', function() {
-  return Auth::user();
-});
+Route::get('/', 'HomeController@showIndex');
+//Route::get('/', function() {
+  //return Auth::user();
+//});
 
 Route::get('/blog', 'HomeController@showBlog');
 
 Route::get('/blogpost', 'HomeController@showBlogPost');
 
 Route::get('/signup', 'HomeController@showSignup');
-
-Route::get('/corporate-signup', 'HomeController@showCorporateSignup');
-
+Route::post('/signup', 'UsersController@registerUser');
 Route::get('/signin', 'HomeController@showSignin');
+Route::get('/corporate-signup', 'HomeController@showCorporateSignup');
 
 Route::get('/comingsoon', 'HomeController@showComingsoon');
 

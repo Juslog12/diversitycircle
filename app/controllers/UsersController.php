@@ -37,18 +37,51 @@ class UsersController extends HomeController {
 
   public function linkedInLogin()
   {
-      try {
-          OAuth::login('linkedin');
-      } catch (ApplicationRejectedException $e) {
-          // User rejected application
-      } catch (InvalidAuthorizationCodeException $e) {
-          // Authorization was attempted with invalid
-          // code,likely forgery attempt
-      }
+    try {
+      OAuth::login('linkedin', function($user, $details){
+        $user->linkedin_id = $details->userId;
+        $user->name = $details->firstName . ' ' . $details->lastName;
+        $user->email = $details->email;
+        $user->profile_image = $details->imageUrl;
+        $user->save();
+      });
+    } catch (ApplicationRejectedException $e) {
+      // User rejected application
+    } catch (InvalidAuthorizationCodeException $e) {
+      // Authorization was attempted with invalid
+      // code,likely forgery attempt
+    }
 
-      // Current user is now available via Auth facade
-      $user = Auth::user();
-      return Redirect::intended();
+    // Current user is now available via Auth facade
+    $user = Auth::user();
+
+    Session::flash('message', 'You have successfully registered');
+    return Redirect::to('/comingsoon');
+  }
+
+  public function registerUser() {
+
+    $validator = Validator::make(Input::all(), User::$rules);
+
+    if($validator->passes()) {
+      $user = new User;
+      $user->email = Input::get('email');
+      $user->password = Input::get('password');
+      $user->save();
+
+      Session::flash('message', 'You have successfully registered');
+      return Redirect::to('/comingsoon');
+
+    } else {
+
+      Session::flash('message', 'Please fix the errors below.');
+
+      return Redirect::to('/signup')
+        ->withErrors($validator)
+        ->withInput();
+
+    }
+
   }
 
 }
