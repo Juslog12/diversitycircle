@@ -32,3 +32,4 @@ Route::get('/tour', 'HomeController@showTour');
 // Login with LinkedIn
 Route::get('linkedin/authorize', 'UsersController@linkedInAuthorize');
 Route::get('linkedin/login', 'UsersController@linkedInLogin');
+
